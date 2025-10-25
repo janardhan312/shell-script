@@ -1,7 +1,12 @@
 #!/bin/bash
 
-echo "Enter the number"
-read NUMBER
+NUMBER=$1
+
+# you can use below content insted of NUMBER=$1 
+
+#echo "Enter the number"
+#read NUMBER
+
 
 if [ $NUMBER -lt 10 ]; then 
    echo "Given number $NUMBER is less than 10"
